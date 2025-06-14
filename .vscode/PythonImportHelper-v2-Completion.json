@@ -250,7 +250,7 @@
         "kind": 5,
         "importPath": "djangotutorial.mysite.settings",
         "description": "djangotutorial.mysite.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-d_sh@6xsm6tr#s+t_07_ek7fy4=j4cdtyqq$a*@gxpwa6kq-11'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"polls.apps.PollsConfig\",\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-d_sh@6xsm6tr#s+t_07_ek7fy4=j4cdtyqq$a*@gxpwa6kq-11'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"debug_toolbar\",\n    \"polls.apps.PollsConfig\",\n    'django.contrib.admin',\n    'django.contrib.auth',",
         "detail": "djangotutorial.mysite.settings",
         "documentation": {}
     },
@@ -259,7 +259,7 @@
         "kind": 5,
         "importPath": "djangotutorial.mysite.settings",
         "description": "djangotutorial.mysite.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"polls.apps.PollsConfig\",\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"debug_toolbar\",\n    \"polls.apps.PollsConfig\",\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
         "detail": "djangotutorial.mysite.settings",
         "documentation": {}
     },
@@ -268,7 +268,7 @@
         "kind": 5,
         "importPath": "djangotutorial.mysite.settings",
         "description": "djangotutorial.mysite.settings",
-        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"polls.apps.PollsConfig\",\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"debug_toolbar\",\n    \"polls.apps.PollsConfig\",\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
         "detail": "djangotutorial.mysite.settings",
         "documentation": {}
     },
@@ -277,7 +277,7 @@
         "kind": 5,
         "importPath": "djangotutorial.mysite.settings",
         "description": "djangotutorial.mysite.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    \"polls.apps.PollsConfig\",\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]\nMIDDLEWARE = [",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"debug_toolbar\",\n    \"polls.apps.PollsConfig\",\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles'\n]",
         "detail": "djangotutorial.mysite.settings",
         "documentation": {}
     },
@@ -295,7 +295,7 @@
         "kind": 5,
         "importPath": "djangotutorial.mysite.settings",
         "description": "djangotutorial.mysite.settings",
-        "peekOfCode": "ROOT_URLCONF = 'mysite.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        \"DIRS\": [BASE_DIR / \"templates\"],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',",
+        "peekOfCode": "ROOT_URLCONF = 'mysite.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'APP_DIRS': True,\n        'DIRS': [],\n        \"DIRS\": [BASE_DIR / \"templates\"],\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',",
         "detail": "djangotutorial.mysite.settings",
         "documentation": {}
     },
@@ -304,7 +304,7 @@
         "kind": 5,
         "importPath": "djangotutorial.mysite.settings",
         "description": "djangotutorial.mysite.settings",
-        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        \"DIRS\": [BASE_DIR / \"templates\"],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'APP_DIRS': True,\n        'DIRS': [],\n        \"DIRS\": [BASE_DIR / \"templates\"],\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
         "detail": "djangotutorial.mysite.settings",
         "documentation": {}
     },
@@ -340,7 +340,7 @@
         "kind": 5,
         "importPath": "djangotutorial.mysite.settings",
         "description": "djangotutorial.mysite.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field",
         "detail": "djangotutorial.mysite.settings",
         "documentation": {}
     },
@@ -349,7 +349,7 @@
         "kind": 5,
         "importPath": "djangotutorial.mysite.settings",
         "description": "djangotutorial.mysite.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "djangotutorial.mysite.settings",
         "documentation": {}
     },
@@ -358,7 +358,7 @@
         "kind": 5,
         "importPath": "djangotutorial.mysite.settings",
         "description": "djangotutorial.mysite.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "djangotutorial.mysite.settings",
         "documentation": {}
     },
@@ -367,7 +367,7 @@
         "kind": 5,
         "importPath": "djangotutorial.mysite.settings",
         "description": "djangotutorial.mysite.settings",
-        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "djangotutorial.mysite.settings",
         "documentation": {}
     },
@@ -376,7 +376,7 @@
         "kind": 5,
         "importPath": "djangotutorial.mysite.settings",
         "description": "djangotutorial.mysite.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "djangotutorial.mysite.settings",
         "documentation": {}
     },
@@ -385,7 +385,7 @@
         "kind": 5,
         "importPath": "djangotutorial.mysite.settings",
         "description": "djangotutorial.mysite.settings",
-        "peekOfCode": "STATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_URL = 'static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "djangotutorial.mysite.settings",
         "documentation": {}
     },
